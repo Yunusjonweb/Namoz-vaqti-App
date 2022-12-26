@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="back-noisee">
+    <div class="wrapper">
+      <h1 class="title">Namoz Vaqtlari</h1>
+      <div class="line"></div>
+      <div class="select-region">
+        <h2 class="region-title">Hududni tanlang:</h2>
+        <header>
+          <div class="accardion active">
+            <strong id="region">Toshkent</strong>
+            <span id="toggle">
+              <i class="fa-sharp fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+          <ul class="panel">
+            <li>Andijon</li>
+            <li>Buharo</li>
+            <li>Farg'ona</li>
+            <li>Namangan</li>
+            <li>Toshkent</li>
+            <li>Guliston</li>
+            <li>Jizzax</li>
+            <li>Navoiy</li>
+            <li>Samarqand</li>
+            <li>Termiz</li>
+            <li>Xiva</li>
+            <li>Nukus</li>
+          </ul>
+        </header>
+      </div>
+      <div class="region-info">
+        <div class="region-name">
+          <p class="region-name_title">Mintaqa:</p>
+          <p class="selected-city yellow-text"><span id="reg">Toshkent</span> shaxhri</p>
+        </div>
+        <div class="time">
+          <img src="./img/calendar.png" alt="calendar" class="calendar-icon">
+          <div class="dates">
+            <p class="date yellow-text">Yakshanaba, 25-dekeabr</p>
+            <p class="date" id="hijri">Safar,27,1444</p>
+          </div>
+          <p class="times">
+            <span id="hour">00:00</span>
+          </p>
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="card">
+          <p class="time yellow-text">Tong</p>
+          <img src="./img/tong.png" alt="Tong rasim" class="card-img">
+          <h1 class="pary-time">00:00</h1>
+        </div>
+        <div class="card">
+          <p class="time yellow-text">Quyosh</p>
+          <img src="./img/quyosh.png" alt="Quyosh rasim" class="card-img">
+          <h1 class="pary-time">00:00</h1>
+        </div>
+        <div class="card">
+          <p class="time yellow-text">Peshin</p>
+          <img src="./img/peshin.png" alt="Peshin rasim" class="card-img">
+          <h1 class="pary-time">00:00</h1>
+        </div>
+        <div class="card">
+          <p class="time yellow-text">Asr</p>
+          <img src="./img/asr.png" alt="Tong rasim" class="card-img">
+          <h1 class="pary-time">00:00</h1>
+        </div>
+        <div class="card">
+          <p class="time yellow-text">Shom</p>
+          <img src="./img/shom.png" alt="Shom rasim" class="card-img">
+          <h1 class="pary-time">00:00</h1>
+        </div>
+        <div class="card">
+          <p class="time yellow-text">Xufton</p>
+          <img src="./img/xufton.png" alt="Xufton rasim" class="card-img">
+          <h1 class="pary-time">00:00</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://rawgit.com/abdennour/hijri-date/master/cdn/hijri-date-latest.js" type="text/javascript"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
